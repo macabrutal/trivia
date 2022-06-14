@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background-color: #3a54dc;
+background-image: linear-gradient(90deg, #3a54dc 0%, #d228c3 46%, #ee9e0c 100%);
+
+  font-size: 16px;
+   color: #fff;
+  font-family: "Roboto", "IBMPlexSans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 26px;
+}
+
+.bienvenida{
+margin-bottom:40px;
+}
+
+h2 {
+  font-size: 21px;
+  color: #fff;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.img-peli{
+  width:300px;
+  border: 2px solid  #fff;;
+  border-radius: 50px;
+  display: block;
+ margin: 20px auto;
+
+}
+
+.form{
+ display: block;
+ margin: 10px auto 30px auto;
+  width: 200px;
+}
+
+.bot-select{
+  width: 200px;
+    background-color: #00cec9;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+    font-size: 17px;
+  cursor: pointer;
+}
+
+.bot-select:hover {
+  background-color: #00b894;
+  color:#fff;
+}
+
+.input{
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+hr{
+  width:20%;
+  margin: 5px auto 20px;
+}
+
+.img-diney{
+  width: 100%;
+  display: block;
+ margin: 20px auto;
+}
+
+.centrado{
+  width: 700px;
+  height: 60px;
+  display: block;
+  margin: 16px auto 28px;
+}
+
+.nombre-imput{
+  width: 200px;
+ height: 30px;
+  border-radius: 6px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.nombre-usuario{
+  width: 900px;
+    display: block;
+    margin: 20px auto;
+    font-size: 28px;
+    font-weight: bold;
+}

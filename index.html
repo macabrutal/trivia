@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+ <meta charset = "utf-8">
+ <title>Trivia</title>
+ <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+ <!-- BIENVENIDA (este div se ocultará)-->
+ <div id="DivContenedor">
+     <h1>Trivia de Películas Disney</h1>
+       <div  class="centrado">
+       Escribe tu nombre aquí: <input class="nombre-imput" type="text" name="fname"       id="nombre">
+       <button class="bot-select" onclick="mostrarNombre()">¡Listo a jugar!</button>
+       </div>
+     <img class="img-diney" src="https://i0.wp.com/frantoojeda.com/wp-content/uploads/2020/03/collage-clacc81sicos-disney.jpg?fit=2360%2C870&ssl=1" >
+ </div>
+
+<!-- TRIVIA -->
+ <div>
+   <!-- Mombre del usuario reconocido por ID-->
+   <p class="nombre-usuario" id="nombreConcursante"></p>
+
+ <!--<h1 class="bienvenida">¡Bienvenid@ a la Trivia de Películas Disney!</h1>-->
+  <h2>1. ¿Cuál es el nombre de este personaje?</h2>
+ <img class="img-peli" src="https://sm.ign.com/ign_es/screenshot/default/unnamed-1_tmqp.jpg"  >
+
+
+<!-- Form 1-->
+<form class="form">
+    <div>
+       <input type="radio" id="resp1" name="films" value="Rapunzel">
+       <label for="html">Rapunzel</label><br>
+       <input type="radio" id="resp2" name="films" value="Ariel">
+       <label for="css">Ariel</label><br>
+       <input type="radio" id="resp3" name="films" value="Merida">
+       <label for="javascript">Mérida</label>
+      </div>
+<!-- BOTÓN -->
+      <input  class="bot-select" type="button" value="Mostrar respuesta" onClick="mostrarSeleccionado()">
+</form>
+<!-- FIN Form 1-->
+<hr>
+ <!-- Form 2-->
+  <h2>2. ¿De qué película es esta Villana?</h2>
+ <img class="img-peli" src="https://tupersonajefavorito.com/wp-content/uploads/2018/04/La-Sirenita-21.jpg"  >
+
+<form class="form">
+    <div>
+   <input type="radio" id="resp4" name="films" value="Maléfica">
+   <label for="html">Maléfica</label><br>
+   <input type="radio" id="resp5" name="films" value="El Rey León">
+   <label for="css">El Rey León </label><br>
+   <input type="radio" id="resp6" name="films" value="La Sirenita">
+   <label for="javascript">La Sirenita</label>
+      </div>
+<!-- BOTÓN -->
+    <input  class="bot-select"type="button" value="Mostrar respuesta" onClick="mostrarSeleccionado2()">
+</form>
+<!-- FIN Form2 -->
+<hr>
+ <!-- Form 3-->
+  <h2>3. ¿De qué película es este paisaje?</h2>
+ <img class="img-peli" src="https://media.timeout.com/images/101527265/image.jpg"  >
+
+<form class="form">
+ <div>
+   <input type="radio" id="resp7" name="films" value="Luca">
+   <label for="html">Luca</label><br>
+   <input type="radio" id="resp8" name="films" value="Frozen">
+   <label for="css">Frozen</label><br>
+   <input type="radio" id="resp9" name="films" value="La Bella y La Bestia">
+   <label for="javascript">La Bella y La Bestia</label>
+ </div>
+<!-- BOTÓN -->
+    <input  class="bot-select"type="button" value="Mostrar respuesta" onClick="mostrarSeleccionado3()">
+</form>
+<!-- FIN Form3  -->
+   </div>
+
+ <!-- SCRIPT -->
+<script  type="text/javascript" src="script.js"> </script>
+</body>
+</html>
